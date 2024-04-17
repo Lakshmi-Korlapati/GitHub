@@ -1,0 +1,56 @@
+<template>
+    <div>
+    <svg class="main" viewBox="0 0 310 310" width="450" height="450" onmouseover={handleevent}>
+     
+  <rect x="10" y="10" width="40" height="40" stroke="Black" stroke-width="1" fill="Pink"  id="Plot1.1"/>
+  <rect x="10" y="60" width="40" height="40" stroke="Black" stroke-width="1" fill="blue" id="Plot2.1" />
+  <rect x="10" y="110" width="40" height="40" stroke="Black" stroke-width="1" fill="Orange" id="Plot3.1" />
+  <rect x="10" y="160" width="40" height="40" stroke="Black" stroke-width="1" fill="green" id="Plot4.1" />
+  <rect x="10" y="210" width="40" height="40" stroke="Black" stroke-width="1" fill="red" id="Plot5.1" />
+  <rect x="10" y="260" width="40" height="40" stroke="Black" stroke-width="1" fill="Yellow" id="Plot6.1" />
+
+  <rect x="60" y="10" width="40" height="40" stroke="Black" stroke-width="1" fill="Pink"  id="Plot1.2"/>
+  <rect x="60" y="60" width="40" height="40" stroke="Black" stroke-width="1" fill="blue" id="Plot2.2" />
+  <rect x="60" y="110" width="40" height="40" stroke="Black" stroke-width="1" fill="Orange" id="Plot3.2" />
+  <rect x="60" y="160" width="40" height="40" stroke="Black" stroke-width="1" fill="green" id="Plot4.2" />
+  <rect x="60" y="210" width="40" height="40" stroke="Black" stroke-width="1" fill="red" id="Plot5.2" />
+  <rect x="60" y="260" width="40" height="40" stroke="Black" stroke-width="1" fill="Yellow" id="Plot6.2" />
+
+  <rect x="110" y="10" width="40" height="40" stroke="Black" stroke-width="1" fill="Pink"  id="Plot1.3"/>
+  <rect x="110" y="60" width="40" height="40" stroke="Black" stroke-width="1" fill="blue" id="Plot2.3" />
+  <rect x="110" y="110" width="40" height="40" stroke="Black" stroke-width="1" fill="Orange" id="Plot3.3" />
+  <rect x="110" y="160" width="40" height="40" stroke="Black" stroke-width="1" fill="green" id="Plot4.3" />
+  <rect x="110" y="210" width="40" height="40" stroke="Black" stroke-width="1" fill="red" id="Plot5.3" />
+  <rect x="110" y="260" width="40" height="40" stroke="Black" stroke-width="1" fill="Yellow" id="Plot6.3" />
+
+  <rect x="160" y="10" width="40" height="40" stroke="Black" stroke-width="1" fill="Pink"  id="Plot1.4"/>
+  <rect x="160" y="60" width="40" height="40" stroke="Black" stroke-width="1" fill="blue" id="Plot2.4" />
+  <rect x="160" y="110" width="40" height="40" stroke="Black" stroke-width="1" fill="Orange" id="Plot3.4" />
+  <rect x="160" y="160" width="40" height="40" stroke="Black" stroke-width="1" fill="green" id="Plot4.4" />
+  <rect x="160" y="210" width="40" height="40" stroke="Black" stroke-width="1" fill="red" id="Plot5.4" />
+  <rect x="160" y="260" width="40" height="40" stroke="Black" stroke-width="1" fill="Yellow" id="Plot6.4" />
+
+  <rect x="210" y="10" width="40" height="40" stroke="Black" stroke-width="1" fill="Pink"  id="Plot1.5"/>
+  <rect x="210" y="60" width="40" height="40" stroke="Black" stroke-width="1" fill="blue" id="Plot2.5" />
+  <rect x="210" y="110" width="40" height="40" stroke="Black" stroke-width="1" fill="Orange" id="Plot3.5" />
+  <rect x="210" y="160" width="40" height="40" stroke="Black" stroke-width="1" fill="green" id="Plot4.5" />
+  <rect x="210" y="210" width="40" height="40" stroke="Black" stroke-width="1" fill="red" id="Plot5.5" />
+  <rect x="210" y="260" width="40" height="40" stroke="Black" stroke-width="1" fill="Yellow" id="Plot6.5" />
+
+  <rect x="260" y="10" width="40" height="40" stroke="Black" stroke-width="1" fill="Pink"  id="Plot1.6"/>
+  <rect x="260" y="60" width="40" height="40" stroke="Black" stroke-width="1" fill="blue" id="Plot2.6" />
+  <rect x="260" y="110" width="40" height="40" stroke="Black" stroke-width="1" fill="Orange" id="Plot3.6" />
+  <rect x="260" y="160" width="40" height="40" stroke="Black" stroke-width="1" fill="green" id="Plot4.6" />
+  <rect x="260" y="210" width="40" height="40" stroke="Black" stroke-width="1" fill="red" id="Plot5.6" />
+  <rect x="260" y="260" width="40" height="40" stroke="Black" stroke-width="1" fill="Yellow" id="Plot6.6" />
+  
+</svg>
+
+        <lightning-datatable
+            key-field="id"
+            data={plotData}
+            columns={columns}
+            >
+        </lightning-datatable>
+</div>
+</template>
